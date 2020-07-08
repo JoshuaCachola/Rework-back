@@ -11,7 +11,7 @@ module.exports = {
     }
     const monthArr = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     let bookingsArr = [];
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 1; i <= 9; i++) {
 
       for (let j = 1; j <= 5; j++) {
         let month = getRandomIntInclusive(0, 11);
