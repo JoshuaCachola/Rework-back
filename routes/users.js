@@ -79,9 +79,9 @@ router.post(
     }
 
     const token = getUserToken(user);
-    res.json({ 
-      token, 
-      user: { id: user.id }});
+    res.json({
+      token,
+      user: { id: user.id, role: user.roleId }});
   })
 );
 
