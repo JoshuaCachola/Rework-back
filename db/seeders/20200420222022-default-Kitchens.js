@@ -131,6 +131,20 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date()
       },
+      // {
+      //   name: 'Country Kitchen',
+      //   cityId: 15,
+      //   stateId: 5,
+      //   streetAddress: '3647 Leo Street',
+      //   hostId: 3,
+      //   description: 'Kitchen you would find on a ranch. Smells like cow shit.',
+      //   imgPath: ['https://res.cloudinary.com/aircncaa/image/upload/v1587859690/bzuqorz8vpy5ix2mvmqs.jpg'],
+      //   rate: 150,
+      //   lat: 37.5170705,
+      //   lng: -122.431066,
+      //   createdAt: new Date(),
+      //   updatedAt: new Date()
+      // },
     ], {});
   },
 

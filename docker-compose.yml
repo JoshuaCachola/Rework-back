@@ -4,9 +4,10 @@ services:
     build: .
     environment:
       DATABASE_URL: postgres://aircnc_app:aircnc@db:5432/aircnc
+      NODE_ENV: production
     depends_on:
       - "db"
-    command: ["./wait-for", "postgres:5432", "-t", "60", "--", "npm", "run", "db:migrate-seed"]
+    command: ["./wait-for", "postgres:5432"]
     networks:
       backend:
     ports:

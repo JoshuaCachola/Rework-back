@@ -56,12 +56,12 @@ module.exports = {
       {featureId: 16, kitchenId: 9, createdAt: new Date(), updatedAt: new Date()},
       {featureId: 13, kitchenId: 9, createdAt: new Date(), updatedAt: new Date()},
 
-      {featureId: 2, kitchenId: 10, createdAt: new Date(), updatedAt: new Date()},
-      {featureId: 4, kitchenId: 10, createdAt: new Date(), updatedAt: new Date()},
-      {featureId: 8, kitchenId: 10, createdAt: new Date(), updatedAt: new Date()},
-      {featureId: 9, kitchenId: 10, createdAt: new Date(), updatedAt: new Date()},
-      {featureId: 11, kitchenId: 10, createdAt: new Date(), updatedAt: new Date()},
-      {featureId: 16, kitchenId: 10, createdAt: new Date(), updatedAt: new Date()},
+      // {featureId: 2, kitchenId: 10, createdAt: new Date(), updatedAt: new Date()},
+      // {featureId: 4, kitchenId: 10, createdAt: new Date(), updatedAt: new Date()},
+      // {featureId: 8, kitchenId: 10, createdAt: new Date(), updatedAt: new Date()},
+      // {featureId: 9, kitchenId: 10, createdAt: new Date(), updatedAt: new Date()},
+      // {featureId: 11, kitchenId: 10, createdAt: new Date(), updatedAt: new Date()},
+      // {featureId: 16, kitchenId: 10, createdAt: new Date(), updatedAt: new Date()},
 
     ], {});
   },

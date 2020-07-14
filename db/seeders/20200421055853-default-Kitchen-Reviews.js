@@ -58,50 +58,50 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date()
       },
-      {
-        kitchenId: 10,
-        authorId: 10,
-        comment: 'Someone left the toilet seat up',
-        starRating: 4,
-        featureBool: true,
-        cleanRating: 1,
-        wouldRentAgain: false,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
-      {
-        kitchenId: 10,
-        authorId: 7,
-        comment: 'Smells kind of funny in here, but once you start cooking the smell goes away! :)',
-        starRating: 4,
-        featureBool: true,
-        cleanRating: 3,
-        wouldRentAgain: false,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
-      {
-        kitchenId: 10,
-        authorId: 8,
-        comment: 'I can shower and cook my bacon!!!',
-        starRating: 5,
-        featureBool: true,
-        cleanRating: 5,
-        wouldRentAgain: false,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
-      {
-        kitchenId: 10,
-        authorId: 9,
-        comment: 'Perfect kitchen for those that have easily irrated stomachs',
-        starRating: 5,
-        featureBool: true,
-        cleanRating: 5,
-        wouldRentAgain: false,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+      // {
+      //   kitchenId: 10,
+      //   authorId: 10,
+      //   comment: 'Someone left the toilet seat up',
+      //   starRating: 4,
+      //   featureBool: true,
+      //   cleanRating: 1,
+      //   wouldRentAgain: false,
+      //   createdAt: new Date(),
+      //   updatedAt: new Date()
+      // },
+      // {
+      //   kitchenId: 10,
+      //   authorId: 7,
+      //   comment: 'Smells kind of funny in here, but once you start cooking the smell goes away! :)',
+      //   starRating: 4,
+      //   featureBool: true,
+      //   cleanRating: 3,
+      //   wouldRentAgain: false,
+      //   createdAt: new Date(),
+      //   updatedAt: new Date()
+      // },
+      // {
+      //   kitchenId: 10,
+      //   authorId: 8,
+      //   comment: 'I can shower and cook my bacon!!!',
+      //   starRating: 5,
+      //   featureBool: true,
+      //   cleanRating: 5,
+      //   wouldRentAgain: false,
+      //   createdAt: new Date(),
+      //   updatedAt: new Date()
+      // },
+      // {
+      //   kitchenId: 10,
+      //   authorId: 9,
+      //   comment: 'Perfect kitchen for those that have easily irrated stomachs',
+      //   starRating: 5,
+      //   featureBool: true,
+      //   cleanRating: 5,
+      //   wouldRentAgain: false,
+      //   createdAt: new Date(),
+      //   updatedAt: new Date()
+      // },
       {
         kitchenId: 9,
         authorId: 9,

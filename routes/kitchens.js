@@ -249,10 +249,19 @@ router.post(
   "/search",
   requireAuth,
   asyncHandler(async (req, res, next) => {
-    // what are we searching on?
+    // search by city
+    let { search } = req.body;
 
-    const { search } = req.body;
+    // make search query case insensitive
+    search = search.split(" ");
+    search.map(part => {
+      first = part[0].toUpperCase();
+      rest = part.slice(1).toLowerCase();
+      return first + rest;
+    });
 
+    search = search.join(" ");
+    console.log(search);
     const kitchens = await Kitchen.findAll({
       include: [
         {
@@ -296,6 +305,7 @@ router.post(
       res.json({ kitchens });
     } else {
       next(res);
+      console.log('hello')
     }
     // console.log(kitchens);
   })
