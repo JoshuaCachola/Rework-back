@@ -7,4 +7,8 @@ router.get("/", (req, res) => {
   res.render("index", { title: "Index" });
 });
 
+router.get("/ping", (req, res) => {
+
+  res.status(200).end()
+});
 module.exports = router;
